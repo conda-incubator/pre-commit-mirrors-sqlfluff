@@ -14,5 +14,5 @@ Add this to your `.pre-commit-config.yaml`
  - repo: https://github.com/Quantco/pre-commit-mirrors-sqlfluff
    rev: ''  # Use the sha / tag you want to point at
    hooks:
-     - id: sqlfluff-conda
+     - id: sqlfluff-lint-conda  # Alternatively, use `sqlfluff-fix-conda`
 ```
