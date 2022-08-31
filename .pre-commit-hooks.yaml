@@ -20,9 +20,7 @@
   additional_dependencies: []
 - id: sqlfluff-conda-lint
   name: sqlfluff-conda
-  # Needs to use "--force" to disable confirmation
-  # By default all the rules are applied
-  entry: sqlfluff lint --force
+  entry: sqlfluff lint
   language: conda
   description: 'Lint SQL files with `SQLFluff`'
   types: [sql]
