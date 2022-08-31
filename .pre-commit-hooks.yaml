@@ -4,6 +4,16 @@
   # By default all the rules are applied
   entry: sqlfluff fix --force
   language: conda
+  description: 'Fixes sql lint errors with `SQLFluff` (DEPRECATED: Please use `sqlfluff-conda-fix` instead)'
+  types: [sql]
+  require_serial: true
+  additional_dependencies: []
+- id: sqlfluff-conda-fix
+  name: sqlfluff-conda
+  # Needs to use "--force" to disable confirmation
+  # By default all the rules are applied
+  entry: sqlfluff fix --force
+  language: conda
   description: 'Fixes sql lint errors with `SQLFluff`'
   types: [sql]
   require_serial: true
