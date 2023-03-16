@@ -2,7 +2,7 @@
   name: sqlfluff-conda
   # Needs to use "--force" to disable confirmation
   # By default all the rules are applied
-  entry: sqlfluff fix --force
+  entry: sqlfluff fix --force --show-lint-violations --processes 0
   language: conda
   description: "Fixes sql lint errors with `SQLFluff`"
   types: [sql]
@@ -10,7 +10,7 @@
   additional_dependencies: []
 - id: sqlfluff-conda-lint
   name: sqlfluff-conda
-  entry: sqlfluff lint
+  entry: sqlfluff lint --processes 0
   language: conda
   description: "Lints sql files with `SQLFluff`"
   types: [sql]
