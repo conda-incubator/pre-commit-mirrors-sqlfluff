@@ -1,4 +1,4 @@
 channels:
   - conda-forge
 dependencies:
-  - sqlfluff=2.1.2
+  - sqlfluff=2.1.3
