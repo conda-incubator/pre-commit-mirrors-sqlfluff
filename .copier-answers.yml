@@ -1,0 +1,7 @@
+# This file is managed by Copier; DO NOT EDIT OR REMOVE.
+_commit: v0.1.4
+_src_path: git@github.com:quantco/copier-template-pre-commit-mirrors
+description: Fixes sql lint errors with `SQLFluff`
+entry: sqlfluff fix --force --show-lint-violations --processes 0
+tool: sqlfluff
+url: https://github.com/sqlfluff/sqlfluff
