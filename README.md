@@ -1,6 +1,6 @@
-# sqlfluff mirror
+# sqlfluff pre-commit hook
 
-Mirror of sqlfluff for pre-commit with conda as a language.
+pre-commit hook of sqlfluff with conda as a `language` / package manager.
 
 For pre-commit: see [here](https://github.com/pre-commit/pre-commit)
 
